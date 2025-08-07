@@ -23,7 +23,7 @@ jobs:
           context: ./
           push: true
           #dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
-          tags: aalexanermdc/WA_Lab_03_docker:latest
+          tags: alexanermdc/WA_Lab_03_docker:latest
   deploy:
     needs: build
     runs-on: ubuntu-latest
